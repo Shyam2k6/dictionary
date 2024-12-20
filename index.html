@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="interacrion">
+        <input type="text" class="word" placeholder="Find meaning" />
+        <button class="search" onclick="searchDefinition()">Search</button>
+      </div>
+    </div>
+    <section class="bg-image">
+      <img src="bg.jpg" alt="" />
+    </section>
+    <section class="container hidden">
+      <div class="box">
+        <div class="heading">
+          <h2 class="searchedWord"></h2>
+          <div class="pos"></div>
+        </div>
+        <p class="phonetics"></p>
+        <p class="definition"></p>
+      </div>
+    </section>
+  </body>
+</html>
