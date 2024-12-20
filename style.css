@@ -22,7 +22,7 @@ body {
 .container {
   /* min-height: 300px; */
   min-height: 60px;
-
+    user-select: text;
   width: 50%;
   background: #ddd;
   position: absolute;
